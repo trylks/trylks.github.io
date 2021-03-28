@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://gatsby-test/./src/pages/testalt.coffee"],"names":[],"mappings":"oIAEA,UAAe,EAAf","file":"component---src-pages-testalt-coffee-4c5f53aeac405becb93b.js","sourcesContent":["import IndexPage from './coffee'\n\nexport default IndexPage"],"sourceRoot":""}
