@@ -1,7 +1,17 @@
 ---
 name: trylks
 title: I just do things
-description: See the links!
+description: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+  aliqua. Quisque non tellus orci ac auctor augue mauris augue. Dapibus ultrices in iaculis nunc sed augue lacus
+  viverra. Risus nullam eget felis eget nunc lobortis mattis. Volutpat diam ut venenatis tellus in metus vulputate.
+  Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Massa massa ultricies mi quis hendrerit dolor.
+
+  Quis vel eros donec ac odio. Libero justo laoreet sit amet cursus. Convallis posuere morbi leo urna molestie at
+  elementum. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Semper risus in hendrerit gravida rutrum
+  quisque non. Hac habitasse platea dictumst vestibulum rhoncus. Quis hendrerit dolor magna eget est. Volutpat ac
+  tincidunt vitae semper quis lectus nulla at. Nunc scelerisque viverra mauris in.
+
 brands:
   Twitter: I throw ideas to the pinned thread in ñ but you may find other options easier to read.
   WordPress: I used to write blog posts limited to 500 words in ñ but I would rather tweet nowadays.

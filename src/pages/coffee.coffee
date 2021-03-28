@@ -19,7 +19,7 @@ IndexPage = -> <ThemeProvider theme={theme}>
   <div className="titles">
     <h1>{data.name}</h1>
     <h2>{data.title}</h2>
-    <p>{data.description}</p>
+    {<p>{e}</p> for e in data.description.split '\n\n'}
   </div>
   { <div className="row">
       <div className="row-element">
@@ -33,6 +33,7 @@ IndexPage = -> <ThemeProvider theme={theme}>
         <div className="posttext">{v.split('ñ')[1]}</div>
       </div>
     </div> for k, v of data.brands }
+  <div className="footer" />
 </ThemeProvider>
 
 export default IndexPage
