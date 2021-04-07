@@ -1,4 +1,3 @@
-# testing fonts
 import * as React from "react"
 import "../styles/global.sass"
 
