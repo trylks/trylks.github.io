@@ -27,5 +27,6 @@ module.exports = {
       },
       __key: "pages",
     }, { resolve: `gatsby-plugin-google-fonts`, options: { fonts: fonts, display: 'swap' } },
+    { resolve: 'gatsby-plugin-web-font-loader', options: { google: { families: fonts } } }
   ],
 };
