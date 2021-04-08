@@ -6,7 +6,7 @@ the quick brown fox jumps over the lazy ffifth dog</span></li>
 
 fonts = ["Roboto", "Helvetica", "Arial", "sans-serif", "Lato", "proxima-nova", "Caveat",
 "Helvetica Neue", "Georgia", "serif", "Raleway", "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo",
-"Garamond", 'Merriweather',, "Montserrat", "Work Sans", "Quicksand", "Cabin", "Libre Baskerville",
+"Garamond", 'Merriweather', "Montserrat", "Work Sans", "Quicksand", "Cabin", "Libre Baskerville",
 "Primitive Icons", "Pacifico", "Indie Flower", "Varela Round", "Comfortaa", "Lobster", "monospace",
 "Crimson Text", "Source Serif Pro", "Source Mono Pro", "Source Code Pro", "Source Sans Pro", "Inconsolata",
 "Noto Code", "Noto Sans", "Noto Serif", "Noto Mono", "Open Sans", "Lexend", "PT Sans", "Allan", "Markazi Text",
