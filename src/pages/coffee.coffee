@@ -4,6 +4,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 import { Button, useMediaQuery } from '@material-ui/core'
+import {Helmet} from "react-helmet"
 import data from "../content/links.yaml"
 import "../styles/global.sass"
 library.add(fab)
@@ -12,10 +13,18 @@ theme = createMuiTheme
   typography: button: fontSize: '100%', textTransform: 'none'
   palette: primary: main: '#059'
 
+props =
+  title: "trylks' page"
+  description: 'In fact this is only a Gatsby and CoffeeScript test'
+  image: 'https://i.imgur.com/1PiHSau.png'
+  url: 'https://trylks.github.io/coffee/'
+
 IndexPage = -> <ThemeProvider theme={theme}>
-  <div className="header">
-    <img className="avatar" src="https://i.imgur.com/1PiHSau.png" />
-  </div>
+  <Helmet>
+    <title>{props['title']}</title>
+    { <meta property={'og:' + k} content={v}/> for k, v of props }
+  </Helmet>
+  <div className="header"><img className="avatar" src= {props['image']}/></div>
   <div className="titles">
     <h1>{data.name}</h1>
     <h2>{data.title}</h2>
