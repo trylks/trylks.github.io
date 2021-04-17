@@ -23,6 +23,7 @@ IndexPage = -> <ThemeProvider theme={theme}>
   <Helmet>
     <title>{props['title']}</title>
     { <meta property={'og:' + k} content={v}/> for k, v of props }
+    <meta name="twitter:card" content="summary" />
   </Helmet>
   <div className="header"><img className="avatar" src= {props['image']}/></div>
   <div className="titles">
