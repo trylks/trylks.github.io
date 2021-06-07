@@ -27,12 +27,6 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
-    },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `github-uy7bnm9v78`
-      }
-    },
+    }
   ],
 };

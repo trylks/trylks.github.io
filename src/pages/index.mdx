@@ -1,6 +1,6 @@
 import "../styles/styling.css";
 import {Helmet} from "react-helmet";
-import {Disqus} from "gatsby-plugin-disqus";
+import {DiscussionEmbed} from 'disqus-react';
 
 <Helmet>
     <title>Hi from trylks</title>
@@ -33,4 +33,8 @@ In any case, I would greatly appreciate knowing that my time was not completely 
 
 Hope this helps — trylks
 
-<Disqus config={url: 'https://trylks.github.io', identifier: 'index', title: 'Hi from trylks'}/>
+<DiscussionEmbed shortname='github-uy7bnm9v78' config={{
+    url: 'https://trylks.github.io',
+    identifier: 'index',
+    title: 'Hi from trylks',
+    language: 'en_US' }}/>
