@@ -18,7 +18,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-coffeescript",
     "gatsby-plugin-fontawesome-css",
-    "gatsby-plugin-mdx",
 
     {
       resolve: "gatsby-source-filesystem",
